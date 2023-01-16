@@ -7,9 +7,37 @@ install.packages("glmnet")						# installing the package
 library(glmnet)								# loading the package
 
 
+#
+#	Example 1: Artificial data
+#
+
+set.seed(1010)
+n = 1000
+p = 100
+nzc = trunc(p/10)
+x = matrix(rnorm(n * p), n, p)
+beta = rnorm(nzc)
+fx = x[, seq(nzc)] %*% beta
+eps = rnorm(n) * 5
+y = drop(fx + eps)
+
+
+selection <- cv.glmnet(x, y)
+bestlam<- selection$lambda.min
+coef(selection , lambda=bestlam)
+
+set.seed(1011)
+path<- glmnet(x, y )
+plot(path, label=T, xvar='lambda')
+print(path)
+
+
+
+
+
 
 #
-#	Importing data
+#	Example 2: application in finance
 #
 
 
