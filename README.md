@@ -8,4 +8,4 @@ We use the glmnet function from glmnet package to run LASSO regression in R. We 
 2) A real data to show the applicability of the LASSO in finance
 
 # The PwerPoint file
-There is a short review on the LASSO theory and R programming.
+There is a short review on LASSO theory and R programming.
