@@ -3,8 +3,8 @@ This repository provides materials on the LASSO theory and its application in fi
 
 # R code
 We use the glmnet function from glmnet package to run LASSO regression in R. We have two examples to show the results of this function and interpretation:
-1) An artificial data to illustrate variable selection results and draw the solution (or regularization) path 
-2) A real data to show the applicability of the LASSO in finance
+1) An artificial data analysis to illustrate variable selection results and draw the solution (or regularization) path 
+2) A real data analysis to show the applicability of the LASSO in finance
 
 # The PwerPoint file
 There is a short review on LASSO theory and R programming.
