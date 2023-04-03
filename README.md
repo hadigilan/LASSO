@@ -10,6 +10,11 @@ We use the glmnet function from glmnet package to run LASSO regression in R. We 
 There is a short review on LASSO theory and R programming.
 
 # Google Sheet
-The LASSO created a new path in the world of variable selection, and model fitting. In this [Google Sheet](https://docs.google.com/spreadsheets/d/1MSrK9J_LY4USCosxjmCCPW6U2sEnZw0LuaeUOV_FumE/edit?usp=sharing), we introduce those methods which have close connection with LASSO. There exist two sheets: penalties (lasso-related penalties) and estimation methods (lasso-related methods for model fitting). In fact, the first sheet introduces the refernces focusing on the penalty term, but the second one focuses on the objective function in model fitting.
+The LASSO created a new path in the world of variable selection, and model fitting. In this [Google Sheet](https://docs.google.com/spreadsheets/d/1MSrK9J_LY4USCosxjmCCPW6U2sEnZw0LuaeUOV_FumE/edit?usp=sharing), we introduce those methods which have close connection with LASSO. 
+
+There exist three sheets: 
+1) penalty function: introduces lasso-related penalties
+2) loss function: introduces refrences which use alternative loss function insead of the sum of squares
+3) algorightm: introduces studeis which propose an algorithm to solve the objective functions in penelized regression 
 
 
