@@ -14,7 +14,7 @@ The LASSO created a new path in the world of variable selection, and model fitti
 
 There exist three sheets: 
 1) penalty function: introduces lasso-related penalties
-2) loss function: introduces refrences which use alternative loss function insead of the sum of squares
-3) algorightm: introduces studeis which propose an algorithm to solve the objective functions in penelized regression 
+2) loss function: introduces references which use an alternative loss function insead of the sum of squares
+3) algorightm: introduces studies which propose an algorithm to solve the objective functions in penalized regression 
 
 
