@@ -1,6 +1,9 @@
 # LASSO
 This repository provides materials on the LASSO theory and its application in finance --- has been used in the course Advances of Machine Learning in Finance (ACCFIN5229), at ASBS, University of Glasgow, 2022-23.
 
+# The importance of the LASSO
+Gelman, A., & Vehtari, A. (2021). What are the most important statistical ideas of the past 50 years?. Journal of the American Statistical Association, 116(536), 2087-2097.
+
 # R code
 We use the glmnet function from glmnet package to run LASSO regression in R. We have two examples to show the results of this function and interpretation:
 1) An artificial data analysis to illustrate variable selection results and draw the solution (or regularization) path 
